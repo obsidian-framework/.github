@@ -6,8 +6,8 @@
 
 ```java
 @Controller
-public class ArticleController extends BaseController {
-    
+public class ArticleController extends BaseController
+ {    
     @Before(AuthMiddleware.class)
     @GET(value = "/articles", name = "articles.index")
     private Object index(ArticleRepository repo) {
