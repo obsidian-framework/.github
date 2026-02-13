@@ -1,8 +1,8 @@
 # Obsidian Framework
 
-> Bringing Laravel-like conventions to Spark Java
+> Modern web framework built on Spark Java with annotation-based routing, authentication, middleware, database migrations, and real-time capabilities.
 
-Modern web framework built on Spark Java with annotation-based routing, authentication, middleware, database migrations, and real-time capabilities.
+**Features:** Annotation Routing • Auto-Discovery • Authentication • CSRF • Middleware • Flash Messages • ActiveJDBC • Migrations • Repositories • WebSockets • SSE • Dependency Injection
 
 ```java
 @Controller
@@ -17,8 +17,6 @@ public class ArticleController extends BaseController {
     }
 }
 ```
-
-**Features:** Annotation Routing • Auto-Discovery • Authentication • CSRF • Middleware • Flash Messages • ActiveJDBC • Migrations • Repositories • WebSockets • SSE • Dependency Injection
 
 ## Repositories
 
