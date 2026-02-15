@@ -23,6 +23,7 @@ public class ArticleController extends BaseController
 - **[core](https://github.com/obsidian-framework/core)** - The framework itself
 - **[skeleton](https://github.com/obsidian-framework/skeleton)** - Boilerplate to start quickly
 - **[realtime-examples](https://github.com/obsidian-framework/realtime-examples)** - WebSocket & SSE demos
+- **[livecomponents-examples](https://github.com/obsidian-framework/livecomponents-examples)** - LiveComponents demos
 
 ## Quick Start
 
@@ -30,7 +31,7 @@ public class ArticleController extends BaseController
 <dependency>
   <groupId>io.github.kainovaii</groupId>
   <artifactId>obsidian-core</artifactId>
-  <version>1.0.3</version>
+  <version>1.0.4</version>
 </dependency>
 ```
 
