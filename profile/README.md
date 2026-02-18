@@ -4,37 +4,6 @@
 
 **Features:** Annotation Routing • Auto-Discovery • Authentication • CSRF • Middleware • Flash Messages • ActiveJDBC • Migrations • Repositories • WebSockets • SSE • Dependency Injection
 
-```java
-@Controller
-public class ArticleController extends BaseController
- {    
-    @Before(AuthMiddleware.class)
-    @GET(value = "/articles", name = "articles.index")
-    private Object index(ArticleRepository repo) {
-        return render("articles/index.html", Map.of(
-            "articles", DB.withConnection(() -> repo.findAll())
-        ));
-    }
-}
-```
-
-## Repositories
-
-- **[core](https://github.com/obsidian-framework/core)** - The framework itself
-- **[skeleton](https://github.com/obsidian-framework/skeleton)** - Boilerplate to start quickly
-- **[realtime-examples](https://github.com/obsidian-framework/realtime-examples)** - WebSocket & SSE demos
-- **[livecomponents-examples](https://github.com/obsidian-framework/livecomponents-examples)** - LiveComponents demos
-
-## Quick Start
-
-```xml
-<dependency>
-  <groupId>io.github.kainovaii</groupId>
-  <artifactId>obsidian-core</artifactId>
-  <version>1.0.4</version>
-</dependency>
-```
-
 📚 Full docs at [obsidian.kainovaii.dev](https://obsidian.kainovaii.dev)
 
 ## Philosophy
