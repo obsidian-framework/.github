@@ -1,8 +1,6 @@
 # Obsidian Framework
 
-> Modern web framework built on Spark Java with annotation-based routing, authentication, middleware, database migrations, and real-time capabilities.
-
-**Features:** Annotation Routing • Auto-Discovery • Authentication • CSRF • Middleware • Flash Messages • ActiveJDBC • Migrations • Repositories • WebSockets • SSE • Dependency Injection
+Modern web framework built on Spark Java with annotation-based routing, authentication, middleware, database migrations, and real-time capabilities.
 
 📚 Full docs at [obsidian.kainovaii.dev](https://obsidian.kainovaii.dev)
 
