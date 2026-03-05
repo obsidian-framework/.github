@@ -2,7 +2,7 @@
 
 Modern web framework built on Spark Java with annotation-based routing, authentication, middleware, database migrations, and real-time capabilities.
 
-📚 Full docs at [obsidian.kainovaii.dev](https://obsidian.kainovaii.dev)
+📚 Full docs at [https://obsidian-java.com/docs](https://obsidian-java.com/docs)
 
 ## Philosophy
 
