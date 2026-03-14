@@ -7,8 +7,8 @@ Modern Java web framework built on Spark. Convention over configuration — anno
 
 ```java
 @Controller
-public class UserController extends BaseController {
-
+public class UserController extends BaseController
+ {
     @Inject
     private UserRepository userRepository;
 
@@ -27,7 +27,8 @@ public class UserController extends BaseController {
 ```
 
 ```java
-public class CreateUsersTable extends Migration {
+public class CreateUsersTable extends Migration
+{
     @Override
     public void up() {
         create("users", table -> {
