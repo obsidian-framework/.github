@@ -11,6 +11,8 @@ Full docs at [https://obsidian-java.com/docs](https://obsidian-java.com/docs)
 
 ## Quick look
 
+### Dependency injection / Controller
+
 ```java
 @Controller
 public class UserController extends BaseController
@@ -45,6 +47,42 @@ public class CreateUsersTable extends Migration
         });
     }
 }
+```
+
+### LiveComponents
+
+```java
+@LiveComponentImpl
+public class Counter extends LiveComponent {
+
+    @State
+    private int count = 0;
+
+    @Action
+    public void increment() { count++; }
+
+    @Action
+    public void decrement() { count--; }
+
+    public int getCount() { return count; }
+
+    public String template() {
+        return "components/counter.html";
+    }
+}
+```
+
+```html
+{{ component('Counter') | raw }}
+```
+
+```html
+<div live:id="{{ _id }}">
+    <h2>Count: {{ count }}</h2>
+    <button live:click="increment">+</button>
+    <button live:click="decrement">-</button>
+    <div live:loading>Updating...</div>
+</div>
 ```
 
 ## Philosophy
