@@ -1,7 +1,7 @@
 # Obsidian Framework
 Modern Java web framework built on Spark. Convention over configuration — annotation-based routing, dependency injection, database migrations, middleware, and real-time capabilities without the boilerplate.
 
-📚 Full docs at [https://obsidian-java.com/docs](https://obsidian-java.com/docs)
+Full docs at [https://obsidian-java.com/docs](https://obsidian-java.com/docs)
 
 ## Quick look
 
