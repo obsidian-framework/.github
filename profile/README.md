@@ -1,4 +1,9 @@
-# Obsidian Framework
+<p align="center">
+  <a href="https://obsidian-java.com/" target="_blank">
+    <img src="https://obsidian-java.com/assets/img/logo.png" width="300" alt="Obsidian Framework">
+  </a>
+</p>
+
 Modern Java web framework built on Spark. Convention over configuration — annotation-based routing, dependency injection, database migrations, middleware, and real-time capabilities without the boilerplate.
 
 Full docs at [https://obsidian-java.com/docs](https://obsidian-java.com/docs)
