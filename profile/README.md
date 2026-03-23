@@ -73,7 +73,7 @@ public class Counter extends LiveComponent {
 ```
 
 ```html
-{{ component('Counter') | raw }}
+{% component 'Counter' %}
 ```
 
 ```html
